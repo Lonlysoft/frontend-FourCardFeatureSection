@@ -55,7 +55,7 @@ p{ color: var(--heading-extra); }
 .item{
 	width: 18em;
 	padding: 1em;
-	box-shadow: 0 3px 9px #0093;
+	box-shadow: 0 1em 1em #0091;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
