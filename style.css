@@ -24,15 +24,20 @@
 	gap: 2em;
 }
 
+header{
+  max-width: 40em;
+}
+
 body{
 	min-height: 100vh;
 	min-height: 100dvh;
 	min-width: 100vw;
 	display: flex;
-	justify-content: center; 
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
-	background: var(--bg-bg);
 	margin: 0;
+	background: var(--bg-bg);
 	font-family: "poppins", sans-serif;
 }
 
