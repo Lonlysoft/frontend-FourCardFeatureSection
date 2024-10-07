@@ -47,7 +47,7 @@ body{
 }
 
 h4{ font-weight: 300; font-size: 1.5em; margin-bottom: 0;}
-h1{ margin-top: 0; font-size: 1.7em}
+h1{ margin-top: 0; font-size: 1.7em; font-weight: 600;}
 h1, h2, h4, p{ text-align: center; }
 h1, h2, h3, h4{ color: var(--heading-color); }
 p{ color: var(--heading-extra); }
@@ -89,7 +89,9 @@ h3{
 	.container{
 		flex-direction: row;
 	}
-	
+	header{
+	  margin: 2em;
+	}
 	.sub__container{
 		flex-direction: column;
 	}
